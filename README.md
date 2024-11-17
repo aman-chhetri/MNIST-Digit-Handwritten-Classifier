@@ -1,4 +1,4 @@
-# MNIST Digital Handwritten Classifier
+# MNIST Digital Handwritten Classifier ✍️🔎
 
 This project aims to build a machine learning model to classify handwritten digits using the `MNIST dataset`. The MNIST dataset consists of 28x28 pixel grayscale images of handwritten digits (0-9). 
 
@@ -31,11 +31,11 @@ The project leverages deep learning techniques and utilizes popular Python libra
 
 The model consists of the following layers:
 
-* **Input Layer:** 28x28 grayscale image.
-* **Convolutional Layers:** Multiple convolutional layers to extract features from the images.
-* **Max Pooling:** Reduces dimensionality and focuses on the most important features.
-* **Fully Connected Layer:** Final classification step.
-* **Output Layer:** A softmax layer with 10 neurons corresponding to the digits 0-9.
+* `Input Layer:` 28x28 grayscale image.
+* `Convolutional Layers:` Multiple convolutional layers to extract features from the images.
+* `Max Pooling:` Reduces dimensionality and focuses on the most important features.
+* `Fully Connected Layer:` Final classification step.
+* `Output Layer:` A softmax layer with 10 neurons corresponding to the digits 0-9.
 
 ## ⏳ Training
 
@@ -51,8 +51,8 @@ The training script includes the ability to save the model weights for future in
 ## 📊 Evaluation
 After training, the model's performance is evaluated on the test dataset. Key metrics include:
 
-* **Accuracy:** The percentage of correct predictions on the test set.
-* **Loss:** The error rate of the model.
+* `Accuracy:` The percentage of correct predictions on the test set.
+* `Loss:` The error rate of the model.
 
 ## 🏆 Results
 The model achieves a classification accuracy of approximately `98%` on the MNIST test set after training.
