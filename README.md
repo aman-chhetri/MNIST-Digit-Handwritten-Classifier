@@ -37,7 +37,7 @@ The model consists of the following layers:
 * `Fully Connected Layer:` Final classification step.
 * `Output Layer:` A softmax layer with 10 neurons corresponding to the digits 0-9.
 
-![Summary](/assets/model_summary_light.png)
+![Summary](/assets/model_summary.png)
 
 
 ## ⏳ Training
