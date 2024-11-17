@@ -37,6 +37,9 @@ The model consists of the following layers:
 * `Fully Connected Layer:` Final classification step.
 * `Output Layer:` A softmax layer with 10 neurons corresponding to the digits 0-9.
 
+![Summary](/assets/model_summary.png)
+
+
 ## ⏳ Training
 
 The training process involves:
@@ -54,6 +57,9 @@ After training, the model's performance is evaluated on the test dataset. Key me
 * `Accuracy:` The percentage of correct predictions on the test set.
 * `Loss:` The error rate of the model.
 
+![Accuracy and Loss](/assets/accuracy.png)
+
 ## 🏆 Results
 The model achieves a classification accuracy of approximately `98%` on the MNIST test set after training.
 
+![Result of CNN model](/assets/result.png)
